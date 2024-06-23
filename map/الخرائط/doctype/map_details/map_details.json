@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:MAP-[nameofcustomer]-[time]",
+ "creation": "2024-06-22 18:45:52.159142",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "location_tab",
+  "location_on_map",
+  "details_tab",
+  "time",
+  "name_of_customer",
+  "add_file",
+  "details"
+ ],
+ "fields": [
+  {
+   "fieldname": "location_tab",
+   "fieldtype": "Tab Break",
+   "label": "\u0627\u0644\u0645\u0648\u0642\u0639"
+  },
+  {
+   "fieldname": "location_on_map",
+   "fieldtype": "Geolocation",
+   "label": "\u0627\u0644\u0645\u0648\u0642\u0639 \u0627\u0644\u062c\u063a\u0631\u0627\u0641\u064a \u0644\u0644\u062e\u0631\u064a\u0637\u0629"
+  },
+  {
+   "fieldname": "details_tab",
+   "fieldtype": "Tab Break",
+   "label": "\u062a\u0641\u0627\u0635\u064a\u0644"
+  },
+  {
+   "fieldname": "name_of_customer",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "\u0627\u0633\u0645 \u0635\u0627\u062d\u0628 \u0627\u0644\u0642\u0636\u064a\u0629",
+   "reqd": 1
+  },
+  {
+   "fieldname": "add_file",
+   "fieldtype": "Attach",
+   "label": "\u0627\u0636\u0627\u0641\u0629 \u0645\u0644\u0641 \u0627\u0648 \u0635\u0648\u0631\u0629"
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Long Text",
+   "label": "\u062a\u0641\u0627\u0635\u064a\u0644 \u0646\u0635\u064a\u0629"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Datetime",
+   "label": "time"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-22 19:07:08.574998",
+ "modified_by": "Administrator",
+ "module": "\u0627\u0644\u062e\u0631\u0627\u0626\u0637",
+ "name": "map details",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
